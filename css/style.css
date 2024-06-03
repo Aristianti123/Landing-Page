@@ -1,0 +1,116 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(230, 122, 205);
+}
+
+div {
+    width: 80%;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: rgb(185, 120, 181);
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+.nav {
+    background-color: rgb(228, 134, 220);
+    display: flex;
+}
+
+.nav ul li {
+    list-style: none;
+    display: inline-block;
+    width: 60px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav ul li a:hover {
+    color: brown;
+}
+.main {
+    display: flex;
+    background-color: rgb(182, 109, 169);
+}
+.content {
+    width: 100%;
+    margin: 0;
+    background-color: rgb(219, 125, 227);
+    padding: 20px;
+
+}
+
+
+.content .artikel {
+    margin-top: 10px;
+    margin-left: 0;
+    width: 100%;
+    background-color: rgb(222, 125, 216);
+    border-radius: 2px;
+    border: 2px solid rgb(169, 98, 172);
+    padding: 10px;
+    line-height: 1.6em;
+}
+
+.content .artikel .read {
+    color: black;
+    border: 1px solid rgb(145, 13, 13);
+    width: 150px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.content .artikel .read a {
+    color: black;
+
+}
+
+
+.sidebar {
+    justify-content: left;
+    border: 1px solid rgb(159, 214, 213);
+    background-color: rgb(227, 123, 186);
+    width: 40%;
+    margin: 0;
+    padding: 20px;
+
+
+}
+
+.sidebar h4{
+    text-align: left;
+
+
+
+}
+
+.sidebar ul li {
+    list-style: none;
+    line-height: 3em;
+}
+
+.sidebar a {
+    color: black;
+    text-decoration: none;
+    text-align: left;
+}
+
+.footer {
+    background-color: rgb(214, 119, 194);
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+
+
+    
+
+
+
